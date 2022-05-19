@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    .container{
+
+        .row{
+            display: flex;
+
+            .app{
+                gap: 20px;
+                display: flex;
+
+                input{
+                    text-align: center;
+                }
+            }
+
+            .btn{
+                margin-right: 90em;
+            }
+        }
+    }
+}
